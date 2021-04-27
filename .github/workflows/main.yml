@@ -6,7 +6,7 @@ jobs:
       name: Test all
       steps:
       - name: Init
-        run: ./.github/automation/init.sh'
+        run: ./.github/automation/init.sh
       - name: Checkout
         uses: actions/checkout@v2
       - name: Execute test
