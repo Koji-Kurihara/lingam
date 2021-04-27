@@ -9,7 +9,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Init
         run: ./.github/automation/init.sh
-	shell: bash	
+        shell: bash	
       - name: Execute test
         run: ./.github/automation/test-all.sh
         shell: bash
