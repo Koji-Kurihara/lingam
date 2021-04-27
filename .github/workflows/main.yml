@@ -1,0 +1,14 @@
+on: [push]
+
+jobs:
+  TestAll:
+      runs-on: ubuntu-18.04
+      name: Test all
+      steps:
+      - name: Init
+        command: 'pip install -r ./.github/env/requirements.txt'
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Execute test
+        run: ./.github/automation/test-all.sh
+        shell: bash
