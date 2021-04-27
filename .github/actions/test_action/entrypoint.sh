@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TEST_DIR=test
+TEST_DIR=tests
 cd ${TEST_DIR}
 
 #Set symbolic link
