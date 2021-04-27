@@ -1,0 +1,5 @@
+name: 'CI'
+description: 'test all'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
